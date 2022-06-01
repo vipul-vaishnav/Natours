@@ -28,3 +28,8 @@ app.patch('/api/v1/tours/:id', updateTour);
 // DELETE
 app.delete('/api/v1/tours/:id', deleteTour);
 ```
+
+## MVC Architecture
+
+- Model | View | Controller
+- Buisness logic | Application logic | Presentation logic
